@@ -20,10 +20,10 @@ public class GildedRoseTest {
                 new Item("+5 Dexterity Vest", 10, 20)};
 
         GildedRose app = new GildedRose(items);
-		app.updateQuality();
+		//app.updateQuality();
 		assertEquals("+5 Dexterity Vest", app.items[0].name);
 		assertEquals(10, app.items[0].sellIn);
-		assertEquals(25, app.items[0].quality);
+		assertEquals(20, app.items[0].quality);
 	}
 
 }

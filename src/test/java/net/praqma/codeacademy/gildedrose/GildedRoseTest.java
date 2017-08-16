@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class GildedRoseTest {
-	//This test is totally awesome.
+	//This test is totally awesome. Or not
     @Test
     public void foo() {
         Item[] items = new Item[] { new Item("foo", 0, 0) };

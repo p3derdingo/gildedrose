@@ -1,5 +1,6 @@
 package net.praqma.codeacademy.gildedrose;
 
+//This code sucks
 public class Item {
 
     public String name;
